@@ -23,9 +23,10 @@ std::vector < char > mttfile_load_file(const char *name, std::streampos off, std
 		if (str) lim--;
 	}
 
+	file.seekg(off);
+
 	std::vector < char > cont(size);
 
-	file.seekg(off);
 	file.read(cont.data(), lim);
 	lim = file.gcount();
 	file.close();
