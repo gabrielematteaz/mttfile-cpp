@@ -1,4 +1,4 @@
-# mttfilecpp
+# mttfile-cpp
 C++ version of "mttfile"
 
 # Functions
@@ -6,7 +6,7 @@ C++ version of "mttfile"
 
 # Example
 ```cpp
-#include "mttlib/mttfile/mttfile.hpp"
+#include "mttfile.hpp"
 #include <iostream>
 
 int main()
